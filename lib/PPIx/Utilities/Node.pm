@@ -4,7 +4,7 @@ use 5.006001;
 use strict;
 use warnings;
 
-our $VERSION = '1.000';
+our $VERSION = '1.000001';
 
 use Readonly;
 
@@ -188,7 +188,7 @@ PPIx::Utilities::Node - Extensions to L<PPI::Node|PPI::Node>.
 
 =head1 VERSION
 
-This document describes PPIx::Utilities::Node version 1.0.0.
+This document describes PPIx::Utilities::Node version 1.0.1.
 
 
 =head1 SYNOPSIS
@@ -330,9 +330,9 @@ can be found in the LICENSE file included with this module.
 
 ##############################################################################
 #      $URL: http://perlcritic.tigris.org/svn/perlcritic/trunk/distributions/PPIx-Utilities/lib/PPIx/Utilities/Node.pm $
-#     $Date: 2010-03-14 14:23:38 -0500 (Sun, 14 Mar 2010) $
+#     $Date: 2010-03-14 17:05:21 -0500 (Sun, 14 Mar 2010) $
 #   $Author: clonezone $
-# $Revision: 3785 $
+# $Revision: 3789 $
 ##############################################################################
 
 # Local Variables:

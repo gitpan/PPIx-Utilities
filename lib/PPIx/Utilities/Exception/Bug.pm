@@ -1,8 +1,8 @@
 ##############################################################################
 #      $URL: http://perlcritic.tigris.org/svn/perlcritic/trunk/distributions/PPIx-Utilities/lib/PPIx/Utilities/Exception/Bug.pm $
-#     $Date: 2010-02-21 18:29:33 -0600 (Sun, 21 Feb 2010) $
+#     $Date: 2010-03-14 17:05:21 -0500 (Sun, 14 Mar 2010) $
 #   $Author: clonezone $
-# $Revision: 3777 $
+# $Revision: 3789 $
 ##############################################################################
 
 package PPIx::Utilities::Exception::Bug;
@@ -11,7 +11,7 @@ use 5.006001;
 use strict;
 use warnings;
 
-our $VERSION = '1.000';
+our $VERSION = '1.000001';
 
 
 use Exception::Class (
@@ -37,7 +37,7 @@ PPIx::Utilities::Exception::Bug - A problem identified by L<PPIx::Utilities|PPIx
 
 =head1 VERSION
 
-This document describes PPIx::Utilities::Exception::Bug version 1.0.0.
+This document describes PPIx::Utilities::Exception::Bug version 1.0.1.
 
 
 =head1 DESCRIPTION

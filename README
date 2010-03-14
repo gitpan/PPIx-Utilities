@@ -2,7 +2,7 @@ NAME
     PPIx::Utilities - Extensions to PPI.
 
 VERSION
-    This document describes PPIx::Utilities version 1.0.0.
+    This document describes PPIx::Utilities version 1.0.1.
 
 SYNOPSIS
     This module does nothing but act as a handle for the PPIx-Utilities

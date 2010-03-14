@@ -1,9 +1,9 @@
 #!/usr/bin/env perl
 
 #      $URL: http://perlcritic.tigris.org/svn/perlcritic/trunk/distributions/PPIx-Utilities/xt/author/distribution.t $
-#     $Date: 2010-02-21 18:29:33 -0600 (Sun, 21 Feb 2010) $
+#     $Date: 2010-03-14 17:05:21 -0500 (Sun, 14 Mar 2010) $
 #   $Author: clonezone $
-# $Revision: 3777 $
+# $Revision: 3789 $
 
 # Taken from
 # http://www.chrisdolan.net/talk/index.php/2005/11/14/private-regression-tests/.
@@ -13,7 +13,7 @@ use 5.006;
 use strict;
 use warnings;
 
-our $VERSION = '1.000';
+our $VERSION = '1.000001';
 
 # No POD coverage due to complaints about builtins when using Fatal.
 use Test::Distribution ( distversion => 1, not => 'podcover' );

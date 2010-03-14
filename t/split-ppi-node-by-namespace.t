@@ -5,7 +5,7 @@ use 5.006001;
 use strict;
 use warnings;
 
-our $VERSION = '1.000';
+our $VERSION = '1.000001';
 
 
 use Readonly;
@@ -951,9 +951,9 @@ sub _expand_tabs {
 
 
 #      $URL: http://perlcritic.tigris.org/svn/perlcritic/trunk/distributions/PPIx-Utilities/t/split-ppi-node-by-namespace.t $
-#     $Date: 2010-02-21 18:29:33 -0600 (Sun, 21 Feb 2010) $
+#     $Date: 2010-03-14 17:05:21 -0500 (Sun, 14 Mar 2010) $
 #   $Author: clonezone $
-# $Revision: 3777 $
+# $Revision: 3789 $
 
 # Local Variables:
 #   mode: cperl
