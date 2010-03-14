@@ -1,0 +1,50 @@
+---
+name: PPIx-Utilities
+version: 1.000
+author:
+  - 'Elliot Shank <perl@galumph.com>'
+abstract: Extensions to L<PPI>.
+license: perl
+resources:
+  MailingList: http://perlcritic.tigris.org/servlets/SummarizeList?listName=users
+  Repository: http://guest@perlcritic.tigris.org/svn/perlcritic/trunk/distributions/PPIx-Utilities/
+  license: http://dev.perl.org/licenses/
+build_requires:
+  Data::Dumper: 0
+  PPI::Document: 1.208
+  PPI::Dumper: 1.208
+  Test::Deep: 0
+  Test::More: 0
+requires:
+  Exception::Class: 0
+  Exporter: 0
+  PPI: 1.208
+  PPI::Document::Fragment: 1.208
+  Readonly: 0
+  Scalar::Util: 0
+  Task::Weaken: 0
+  base: 0
+  strict: 0
+  warnings: 0
+recommends:
+  Readonly::XS: 0
+configure_requires:
+  Module::Build: 0.35
+dynamic_config: 0
+provides:
+  PPIx::Utilities:
+    file: lib/PPIx/Utilities.pm
+    version: 1.000
+  PPIx::Utilities::Exception::Bug:
+    file: lib/PPIx/Utilities/Exception/Bug.pm
+    version: 1.000
+  PPIx::Utilities::Node:
+    file: lib/PPIx/Utilities/Node.pm
+    version: 1.000
+  PPIx::Utilities::Statement:
+    file: lib/PPIx/Utilities/Statement.pm
+    version: 1.000
+generated_by: Module::Build version 0.35
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
