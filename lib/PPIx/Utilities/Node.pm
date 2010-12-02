@@ -4,7 +4,7 @@ use 5.006001;
 use strict;
 use warnings;
 
-our $VERSION = '1.000001';
+our $VERSION = '1.001000';
 
 use Readonly;
 
@@ -188,7 +188,7 @@ PPIx::Utilities::Node - Extensions to L<PPI::Node|PPI::Node>.
 
 =head1 VERSION
 
-This document describes PPIx::Utilities::Node version 1.0.1.
+This document describes PPIx::Utilities::Node version 1.1.0.
 
 
 =head1 SYNOPSIS
@@ -250,9 +250,9 @@ following code:
         ...
     }
 
-Calling this function on a L<PPI::Document> for the above returns a value that
-looks like this, using multi-line string literals for the actual code parts
-instead of PPI trees to make this easier to read:
+Calling this function on a L<PPI::Document|PPI::Document> for the above
+returns a value that looks like this, using multi-line string literals for the
+actual code parts instead of PPI trees to make this easier to read:
 
     {
         main    => [
@@ -330,9 +330,9 @@ can be found in the LICENSE file included with this module.
 
 ##############################################################################
 #      $URL: http://perlcritic.tigris.org/svn/perlcritic/trunk/distributions/PPIx-Utilities/lib/PPIx/Utilities/Node.pm $
-#     $Date: 2010-03-14 17:05:21 -0500 (Sun, 14 Mar 2010) $
+#     $Date: 2010-12-01 20:31:47 -0600 (Wed, 01 Dec 2010) $
 #   $Author: clonezone $
-# $Revision: 3789 $
+# $Revision: 4001 $
 ##############################################################################
 
 # Local Variables:

@@ -1,16 +1,16 @@
 #!/usr/bin/env perl
 
 #      $URL: http://perlcritic.tigris.org/svn/perlcritic/trunk/distributions/PPIx-Utilities/xt/author/perlcritic-code.t $
-#     $Date: 2010-03-14 17:05:21 -0500 (Sun, 14 Mar 2010) $
+#     $Date: 2010-11-13 14:25:12 -0600 (Sat, 13 Nov 2010) $
 #   $Author: clonezone $
-# $Revision: 3789 $
+# $Revision: 3990 $
 
 use 5.006;
 
 use strict;
 use warnings;
 
-our $VERSION = '1.000001';
+our $VERSION = '1.001000';
 
 use Test::Perl::Critic (
     -severity => 1,
